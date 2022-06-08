@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #86d5eb;
+}
+
+.snacks-list {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: antiquewhite;
+}
+
+.recipe-list {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: antiquewhite;
+}
+
+.cuisine-list {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+  text-align: center;
+  text-indent: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: antiquewhite;
+}
